@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+
+    <title>Super Hero Gifs</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="text-center">Super Hero Gifs</h1>
+            <!-- My buttons will go here -->
+            <div id="buttons-view"></div>
+            <br>
+            <form>
+                <label for="gif-input">Add Your Own Hero: </label>
+                <input type="text" id="gif-input">
+                <!-- Submit to generate new button -->
+                <input id="add-gif" class="btn btn-primary" type="submit" value="Add Button">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Gifs will get dumped here -->
+        <div id="gifs-view" class="mx-auto"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascript/api.js"></script>
+   
+</body>
+
+</html>
